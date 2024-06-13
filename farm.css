@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+body{
+ padding-top: 60px;
+ 
+}
+#logo{
+    width: 150%;
+    height: 70px;
+}
+.nav-link{
+    border: 1px solid #1C5F07 !important;
+    padding: 8px 30px !important;
+    margin: 5px;
+    color: #1C5F07;
+    text-align: center;
+}
+.nav-link:hover{
+    border: 1px solid #1C5F07 !important;
+    padding: 8px 30px !important;
+    margin: 5px;
+    background-color:orange;
+    color: white !important;
+   
+}
+
+
+.dropdown-item:hover{
+    color: white !important;
+    background-color:orange !important;
+}
+
+#carousel h1{
+
+    color:white;
+}
+div #carousel{
+    background-color: rgba(0, 0, 0, 0.332);
+    background-repeat: no-repeat;
+ 
+}
+@media(max-width:600px){
+    #carousel h1{
+      font-size: 20px;
+    }
+    #carousel p{
+      font-size: 10px;
+    }
+    #carousel button{
+  font-size: small;
+    }
+    .container #uses h1{
+       font-size: 500%; 
+       
+    }
+    .container #uses h4{
+       font-size: 100%; 
+
+    }
+}
+.card-img-top{
+    width: 350px;
+    height: 200px;
+}
+
+.card-body:hover{
+background-color: #1C5F07;
+color: white;
+
+}
+#footerbg{
+    background-color:rgb(48, 45, 45);
+    color: white;
+  }
+  #footerbg  h6{
+    
+    color: white;
+  }
+  
+  #footerbg  p{
+    
+    color: white;
+  }
+  
+  #footerbg  a i{
+    
+    color: white;
+  }
+  .image-container {
+    overflow: hidden;
+  }
+
+  .image-container img {
+    width: 400px;
+    height: 400px;
+    height: auto;
+    display: block;
+    padding-left: 100px;
+    
+  }
+  .text-container{
+    padding-top: 100px;
+  
+  }
+  #partner{
+    background-image: url(assets/pexels-jan-kroon-357445-1000057.jpg);
+  }
+#founder img{
+  height: 200px;
+  width: 200px;
+}
